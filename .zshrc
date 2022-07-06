@@ -117,3 +117,6 @@ export SDKMAN_DIR="$HOME/.sdkman"
 
 # Created by `pipx` on 2021-12-16 04:22:00
 export PATH="$PATH:$HOME/.local/bin"
+
+# cursor
+echo '\e[5 q'
