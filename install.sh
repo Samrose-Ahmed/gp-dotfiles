@@ -1,5 +1,9 @@
 set -eux
 
-cp ./zshrc ~/.zshrc
+pwd
+
+cp ~/.dotfiles/.zshrc ~/.zshrc
+
+. ~/.dotfiles/.zshrc
 
 echo "DONE..."
