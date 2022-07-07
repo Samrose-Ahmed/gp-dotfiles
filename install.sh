@@ -3,7 +3,6 @@ set -eux
 pwd
 
 cp ~/.dotfiles/.zshrc ~/.zshrc
-
-. ~/.dotfiles/.zshrc
+cp ~/.dotfiles/.aws/config ~/.aws/config
 
 echo "DONE..."
