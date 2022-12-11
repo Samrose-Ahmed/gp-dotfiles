@@ -111,12 +111,5 @@ alias cls=clear
 alias xcopy="xsel -ib"
 ###################################
 
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
-
-# Created by `pipx` on 2021-12-16 04:22:00
-export PATH="$PATH:$HOME/.local/bin"
-
 # cursor
 echo '\e[5 q'
